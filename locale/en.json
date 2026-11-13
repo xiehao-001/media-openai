@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Media (OpenAI-compatible)",
+    "description": "Registers OpenAI-compatible image and TTS providers into artifact services for Studio and chat."
+  }
+}

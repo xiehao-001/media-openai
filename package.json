@@ -1,0 +1,42 @@
+{
+  "name": "@eduwork/dsh-media-openai",
+  "version": "0.1.0-dev",
+  "description": "Registers OpenAI-compatible image and TTS providers into artifact services for Studio and chat.",
+  "type": "module",
+  "main": "lib/index.js",
+  "license": "MulanPSL-2.0 AND MIT",
+  "exports": {
+    ".": "./lib/index.js",
+    "./locale/en.json": "./locale/en.json",
+    "./locale/zh.json": "./locale/zh.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/**/*",
+    "locale/*.json",
+    "icon.svg",
+    "cordis.patch.yml",
+    "README.md",
+    "MARKET.md",
+    "docs/**/*"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "dsh": ">=0.2.1 <0.3.0"
+  },
+  "keywords": [
+    "image",
+    "tts",
+    "media",
+    "openai"
+  ],
+  "peerDependencies": {
+    "@eduwork/dsh-artifact-services": ">=0.3.0",
+    "@deepseek-ai/cordis": "4.0.2"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "图像与语音生成",
+    "description": "把任意 OpenAI 兼容的图像与 TTS 服务注册进成果服务，供 Studio 与聊天调用。",
+    "detail": "不新增工具或技能，只扩展媒体 Provider：模型、音色、尺寸与服务地址来自用户或发行配置，不含任何学校默认值。依赖 @eduwork/dsh-artifact-services。"
+  }
+}
